@@ -151,7 +151,7 @@ val commonScalacOptions = Seq(
   "-language:experimental.macros",
   "-language:postfixOps",
   "-unchecked",
-  "-Xfatal-warnings",
+//  "-Xfatal-warnings",
   "-Xlint",
   "-Yno-adapted-args",
   // "-Ywarn-dead-code",
