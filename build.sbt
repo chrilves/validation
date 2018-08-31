@@ -4,7 +4,7 @@ import sbtcrossproject.CrossPlugin.autoImport.{crossProject, CrossType}
 val home = "https://github.com/jto/validation"
 val repo = "git@github.com:jto/validation.git"
 val org = "io.github.jto"
-val license = ("Apache License", url("http://www.apache.org/licenses/LICENSE-2.0.txt"))
+val license = ("Apache-2.0", url("http://www.apache.org/licenses/LICENSE-2.0.txt"))
 
 val catsVersion = "1.2.0"
 val jodaConvertVersion = "2.1.1"
