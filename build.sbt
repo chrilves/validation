@@ -4,7 +4,7 @@ import sbtcrossproject.CrossPlugin.autoImport.{crossProject, CrossType}
 val home = "https://github.com/jto/validation"
 val repo = "git@github.com:jto/validation.git"
 val org = "io.github.jto"
-val license = ("Apache License", url("http://www.apache.org/licenses/LICENSE-2.0.txt"))
+val license = ("Apache-2.0", url("http://www.apache.org/licenses/LICENSE-2.0.txt"))
 
 val catsVersion = "2.0.0"
 val jodaConvertVersion = "2.2.1"
@@ -169,13 +169,13 @@ val doPublish = Seq(
   scmInfo :=  Some(ScmInfo(url(home), "scm:git:" + repo)),
   licenses := Seq(license),
   publishMavenStyle := true,
-  publishTo := {
+  /*publishTo := {
     val nexus = "https://oss.sonatype.org/"
     if (isSnapshot.value)
       Some("snapshots" at nexus + "content/repositories/snapshots")
     else
       Some("releases"  at nexus + "service/local/staging/deploy/maven2")
-  },
+  },*/
   pomExtra := (
     <developers>
       <developer>

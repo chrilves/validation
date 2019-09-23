@@ -23,6 +23,8 @@ addSbtPlugin("io.github.davidgregory084" % "sbt-tpolecat" % "0.1.8")
 
 addSbtPlugin("org.duhemm" % "sbt-errors-summary" % "0.6.3")
 
+addSbtPlugin("org.foundweekends" % "sbt-bintray" % "0.5.5")
+
 
 
 
